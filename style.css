@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}    
+
+body {
+    background-color: #1F2937;
+    color: white;
+    font-family: Besley, serif;
+}
+
+.image img {
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px;
+    border: 1px solid red;
+    padding: 20px;    
+}
+
+.logo-text {
+    font-size: 25px;        
+}
+
+ul {
+    list-style: none;    
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;    
+}
+
+li {
+    padding: 4px 16px;    
+    margin-left: 10px;
+    border-radius: 10px;    
+    background-color: #1F2937;
+    
+}
+
+.hero {
+    display:flex;
+    justify-content: space-between;    
+}
+
+.hero-text {
+    white-space: initial;
+    font-size: 48px;
+    font-weight: extra-bold;
+    /* max-width: 50%;*/
+    line-height: 50px;    
+}
+
+.hero-image img {
+    border: 1px solid red; 
+    padding: 12px; 
+    margin-right: 25px;      
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid red;
+    margin-left: 25px;
+    padding: 20px;
+}
+
+button {
+    width: 75px;
+}
