@@ -123,17 +123,26 @@ button {
     border: 1px solid red; 
     /*align-content: space-around;*/
     /*height: auto; */
-    width: 50%;
-    margin-left: 25%; 
-    gap: 20px;       
+    /*width: 50%;*/
+    /*margin-left: 25%;*/ 
+    gap: 20px;
+    padding: 20px;
+    background-color: lightgray;           
 }
 
 .inspiring-quote {
-    text-align: center;
+    text-align: left; 
+    padding-left: 30%;
+    padding-right: 30%;
+    color: black;
+      
 }
 
 .quote-from {
-    text-align: right;
+   text-align: justify;
+   padding-left: 60%;
+   color: black;
+   font-weight: bold;
 }
 
 
