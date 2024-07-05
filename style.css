@@ -25,9 +25,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 25px;
-    border: 1px solid red;
-    padding: 20px;    
+    padding: 10px 10px 10px 30px; 
+    background-color: #1F2937;   
 }
 
 .logo-text {
@@ -48,7 +47,7 @@ li {
     margin-left: 10px;
     border-radius: 10px;
     font-size: 18px;
-    color: red;   
+    color: white;   
 }
 
 /*.title-1 {
@@ -72,7 +71,7 @@ li {
 }
 
 .hero-image img {
-    border: 1px solid red; 
+    /*border: 1px solid red;*/
     padding: 12px; 
     margin-left: 25px ;
     margin-right: 25px;      
@@ -82,16 +81,18 @@ li {
     display: flex;
     flex-direction: column;
     width: 50%;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin-left: 25px;
     padding: 20px;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
 button {
     width: 100px;
-    background-color: #7bb2b9;
-    border-radius: 10px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    height: 25px;
+    border-color: #E5E7EB;
     color: white;    
 }
 .title-1 {
@@ -102,6 +103,7 @@ button {
 }
 
 .boxes {
+    margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center; 
@@ -109,10 +111,10 @@ button {
 }
 
 .box {
-    width: 180px;
-    height: 180px;
-    border-radius: 10px;
-    border: 5px solid #3882F6;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: 2px solid #3882F6;
     text-align: center;  
     color: black;  
     background-color: white;
@@ -120,16 +122,17 @@ button {
 
 
 .subtext {
-    display: flex;        
-    justify-content: space-evenly;
-    align-items: center;  
-    /*border: 1px solid red;  */
+    display: flex;    
+    align-items: center;
+    justify-content: center;
     background-color: white;
+    margin-top: 20px; 
+    margin-bottom: 20px;       
+    gap: 20px; 
 }
 
 .subtext p {
-    text-align:center;
-    border: 1px solid red;
+    text-align:center;    
     width: 200px;
     color: black;
 }
@@ -137,7 +140,7 @@ button {
 .block-quote {
     display: flex;
     flex-direction: column;
-    border: 1px solid red; 
+    /*border: 1px solid red;*/ 
     margin: 10px;
     /*gap: 20px;*/
     padding: 20px;
@@ -160,41 +163,39 @@ button {
    font-weight: bold;
 }
 
-.action {
-    border: 1px solid red;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.call-to-action {
+    display: flex;    
     background-color: #3882F6;
-    width: auto;
-    margin-left: 20%;
-    margin-right: 20%;
-    border-radius: 10px;
-    padding: 10px 0 10px 0;    
+    justify-content: space-around; 
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+
 }
 
-.call {
-    padding-left: 20px;
+.call {     
+    display:flex;
+    flex-direction: column; 
+    background-color: #3882F6; 
+    color: white;  
 }
 
-.sign {
-    padding-left: 20px;
-}
 
 .sign-up {
-    border-color: white;
-    background-color: #3882F6;    
-    margin: 12px;
-    width: 120px;
-    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
 
 .footer {
-    text-align: center;
-    margin: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin: 20px;*/ 
     background-color: #1F2937; 
     color: white; 
-    height: 80px; 
+    height: 50px; 
 }
 
 
