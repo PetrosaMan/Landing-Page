@@ -27,13 +27,9 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 10px 10px 10px 30px; 
     background-color: #1F2937;   
-}
-
-.logo-text {
-    font-size: 25px;        
 }
 
 ul {
@@ -42,7 +38,7 @@ ul {
 
 .links {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;        
 }
 
 li {
@@ -50,12 +46,16 @@ li {
     margin-left: 10px;
     border-radius: 10px;
     font-size: 18px;
-    color: white;   
+    color: #E5E7EB; 
 }
 
-.title-1 {
+.information {
     margin-top: 20px;
-    margin-bottom: 20px;       
+    margin-bottom: 20px; 
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;      
 }
 
 .hero {
@@ -69,23 +69,27 @@ li {
     white-space: initial;
     font-size: 48px;
     font-weight: extra-bold; 
-    color: #F9FAF8;   
+    color: #F9FAF8;    
     line-height: 40px;
     border-bottom: 20px;       
 }
 
-.hero-image img {
-    /*border: 1px solid red;*/
+.hero-sub-text {
+   font-size: 18px; 
+   color: #E5E7EB;
+}
+
+.hero-image img {    
     padding: 12px; 
     margin-left: 25px ;
-    margin-right: 25px;      
+    margin-right: 25px; 
+        
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    border: 1px solid red;
+    width: 50%;    
     margin-left: 25px;
     padding: 20px;
     justify-content: space-between;
@@ -101,13 +105,6 @@ button {
     border-color: #E5E7EB;
     color: white;    
 }
-.title-1 {
-    font-size: 24px;
-    color: black;
-    text-align: center;
-    margin-top: 20px;   
-}
-
 .boxes {
     margin-top: 20px;
     display: flex;
@@ -130,7 +127,7 @@ button {
 .subtext {
     display: flex;    
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     background-color: white;
     margin-top: 20px; 
     margin-bottom: 20px;       
@@ -147,24 +144,25 @@ button {
     display: flex;
     flex-direction: column;
     /*border: 1px solid red;*/ 
-    /*margin: 10px;*/
-    /*gap: 20px;*/
-    padding: 10px 50px 10px 50px;
+    margin: 20px 0 20px 0;    
+    padding: 0px 20px 40px 20px;
     background-color: #E5E7EB;
-    border-bottom: 40px;           
+    border-bottom: 40px;
+    height: 200px;           
 }
 
 .inspiring-quote {
     text-align: left;     
     font-size: 30px;
-    font-weight: italic;
+    font-weight: light-italic;
     color: #1F2937; 
-    line-height: 35px;     
+    line-height: 35px; 
+    padding-top: 20px;    
 }
 
 .quote-from {
    text-align:right;
-   padding: 60px 0 60px 0;
+   padding: 20px 0 60px 0;
    color: black;
    font-weight: bold;
 }
