@@ -41,7 +41,7 @@ ul {
     justify-content: space-between;    
 }
 
-.container {
+.hero-wrapper {
     display: flex;
     flex-direction: column;
     width: 50%;     
@@ -50,7 +50,7 @@ ul {
     gap: 20px;    
 }
 
-.boxes {    
+.feature-boxes {    
     display: flex;
     justify-content: space-evenly;
     align-items: center;        
@@ -151,7 +151,7 @@ li {
     margin-right: 25px;         
 }
 
-.container {
+.hero-wrapper {
     margin-left: 25px;
     padding: 20px;
 }
@@ -165,12 +165,12 @@ button {
     color: white;    
 }
 
-.boxes {
+.feature-boxes {
     background-color: white; 
     margin-top: 20px;
 }
 
-.box {
+.feature {
     width: 100px;
     height: 100px;
     border-radius: 5px;
