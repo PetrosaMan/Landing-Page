@@ -1,6 +1,8 @@
-/* basic setup */
+/***** Import Besley font family *****/
 
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+/***** set initial values *****/
 
 * {
     margin: 0;
@@ -17,7 +19,86 @@ body {
     max-height: 100vh;
 }
 
-/* landing page layout css */
+ul {
+    list-style: none;    
+}
+
+/***** landing page layout css *****/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;       
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;        
+}
+
+.hero {
+    display:flex;
+    justify-content: space-between;    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;     
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;    
+}
+
+.boxes {    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;        
+}
+
+.subtext {
+    display: flex;    
+    align-items: center;
+    justify-content:center;          
+    gap: 20px; 
+}
+
+.block-quote {
+    display: flex;
+    flex-direction: column;    
+}
+
+.call-to-action {
+    display: flex;    
+    background-color: #3882F6;
+    justify-content: space-around; 
+}
+
+.call {     
+    display:flex;
+    flex-direction: column;       
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+/***** landing page styling css *****/
+
+.header {
+    padding: 10px 10px 10px 30px; 
+    background-color: #1F2937;
+}
+
 .logo-text {
     font-size: 24px;
     color: #F9FAF8;
@@ -28,24 +109,6 @@ body {
     border: 1px solid black;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 10px 10px 10px 30px; 
-    background-color: #1F2937;   
-}
-
-
-ul {
-    list-style: none;    
-}
-
-.links {
-    display: flex;
-    justify-content: space-between;        
-}
-
 li {
     padding: 4px 16px;    
     margin-left: 10px;
@@ -54,8 +117,6 @@ li {
     color: #E5E7EB; 
 }
 
-/* landing page styling css */
-
 .information {
     margin-top: 20px;
     margin-bottom: 20px; 
@@ -63,11 +124,6 @@ li {
     font-weight: extra-bold;
     color: #1F2937;
     text-align: center;      
-}
-
-.hero {
-    display:flex;
-    justify-content: space-between;    
 }
 
 .hero {
@@ -92,17 +148,7 @@ li {
 .hero-image img {    
     padding: 12px; 
     margin-left: 25px ;
-    margin-right: 25px; 
-        
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    width: 50%;     
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;    
+    margin-right: 25px;         
 }
 
 .container {
@@ -117,11 +163,6 @@ button {
     height: 25px;
     border-color: #E5E7EB;
     color: white;    
-}
-.boxes {    
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;        
 }
 
 .boxes {
@@ -140,13 +181,6 @@ button {
 }
 
 .subtext {
-    display: flex;    
-    align-items: center;
-    justify-content:center;          
-    gap: 20px; 
-}
-
-.subtext {
     background-color: white;
     margin-top: 20px; 
     margin-bottom: 20px;
@@ -156,11 +190,6 @@ button {
     text-align:center;    
     width: 200px;
     color: black;
-}
-
-.block-quote {
-    display: flex;
-    flex-direction: column;    
 }
 
 .block-quote {
@@ -188,20 +217,9 @@ button {
 }
 
 .call-to-action {
-    display: flex;    
-    background-color: #3882F6;
-    justify-content: space-around; 
-}
-
-.call-to-action {
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 5px;
-}
-
-.call {     
-    display:flex;
-    flex-direction: column;       
 }
 
 .call {
@@ -210,23 +228,11 @@ button {
 }
 
 
-.sign-up {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-}
 
 .p-call {
     font-size: 20px;
     font-weight: bold;
     color: white;
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;   
 }
 
 .footer {
