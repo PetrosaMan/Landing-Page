@@ -148,7 +148,8 @@ li {
 .hero-image img {    
     padding: 12px; 
     margin-left: 25px ;
-    margin-right: 25px;         
+    margin-right: 25px; 
+    border-radius: 20px;        
 }
 
 .hero-wrapper {
