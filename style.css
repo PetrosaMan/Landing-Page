@@ -1,18 +1,12 @@
-/***** Import Besley font family *****/
-
-@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
-
-/***** set initial values *****/
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Besley, serif;
+    font-family: roboto, serif;
 }    
 
 body {
-    background-color: white;      
+    background-color: white;          
 }
 
 .wrapper {
@@ -52,11 +46,11 @@ ul {
 
 .feature-boxes {    
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;        
+    flex-direction: row;    
+    justify-content:space-around;           
 }
 
-.subtext {
+.feature-sub-text {
     display: flex;    
     align-items: center;
     justify-content:center;          
@@ -169,28 +163,29 @@ button {
 .feature-boxes {
     background-color: white; 
     margin-top: 20px;
+    gap: 10px;
 }
 
 .feature {
-    width: 100px;
-    height: 100px;
-    border-radius: 5px;
-    border: 2px solid #3882F6;
+    height: 120px;
+    /*min-width: 120px;*/   
+    border: 1px solid #3882F6;
+    border-radius: 10px;
+}
+
+.feature-one, .feature-two, .feature-three, .feature-four {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;    
     text-align: center;  
     color: black;  
     background-color: white;
 }
 
-.subtext {
+.feature-sub-text {
     background-color: white;
-    margin-top: 20px; 
-    margin-bottom: 20px;
-}
-
-.subtext p {
-    text-align:center;    
-    width: 200px;
-    color: black;
+    text-align: left;   
+    height: 100px; 
 }
 
 .block-quote {
@@ -212,7 +207,7 @@ button {
 
 .quote-from {
    text-align:right;
-   padding: 20px 0 60px 0;
+   padding-top: 10px;
    color: black;
    font-weight: bold;
 }
@@ -221,14 +216,13 @@ button {
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 5px;
+    padding: 10px;
 }
 
 .call {
     background-color: #3882F6; 
     color: white;
 }
-
-
 
 .p-call {
     font-size: 20px;
@@ -238,6 +232,7 @@ button {
 
 .footer {
     margin: 20px 0 20px 0; 
+    padding: 10px;
     background-color: #1F2937; 
     color: white; 
     height: 40px; 
